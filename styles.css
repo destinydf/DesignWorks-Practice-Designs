@@ -1,0 +1,141 @@
+/*--CSS Reset--------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: black;
+  text-decoration: none; /* Will remove underline from a elements*/
+}
+
+/*--Layout--------------------------*/
+.content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  background: white;
+}
+
+header{
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+section, address {
+  padding-bottom: 20px; 
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.objective{
+  padding-top:20px;
+}
+
+/*--Gradient Background--------------------------*/
+body {
+  background-color: white;
+  background-image: linear-gradient(
+    to right,
+    #1a5653,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #1a5653
+  );
+}
+
+/*--Typography Elements--------------------------*/
+h1 {
+  font-size: 80px;
+  font-family: Ink Free, Gabriola, lucida handwriting;
+  color: #1a5653;
+}
+
+h2 {
+  background: #1a5653;
+  color: white;
+  padding: 5px;
+  border-radius: 25px;
+  font-size: 22px;
+}
+
+h1,
+h2,
+header,
+footer {
+  text-align: center;
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+.time {
+  font-style: italic;
+  display: inline;
+}
+
+.inline {
+  display: inline;
+}
+
+.resume{
+  font-size: 40px;
+  font-family: Ink Free, Gabriola, lucida handwriting;
+  color: #1a5653;
+}
+
+/*--Header Elements/Classes--------------------------*/
+img {
+  display: block;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 3px solid #1a5653;
+}
+
+address {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button {
+  font: bold 18px Ink Free,sans-serif;
+  background-color: #fff;
+  color: #1a5653;
+  padding: 4px 10px 4px 10px;
+  margin:5px;
+  border: 1px solid #1a5653;
+  border-radius: 25px;
+
+  
+}
+a:hover {
+  font: bold 18px Ink Free,sans-serif;
+  background-color: #1a5653;
+  color: #fff;
+  padding: 4px 10px 4px 10px;
+    margin:5px;
+  border: 1px solid #1a5653;
+  border-radius: 25px;
+  max-width: 100%;
+}
+
+/*--Bullet Pointa--------------------------*/
+ul {
+  list-style-type: disclosure-closed;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+}
+
+
+/*--Footer--------------------------*/
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
